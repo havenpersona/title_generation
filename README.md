@@ -2,7 +2,7 @@
 
 This repository provides the code for music playlist title generation model. For details, please refer to **Music Playlist Title Generation Using Artist Information**.
 
-<img src="/img/teaser.png">
+<img src="teaser.png">
 
 
 ### Download Dataset
