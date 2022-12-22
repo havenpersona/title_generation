@@ -7,7 +7,7 @@ This repository provides the code for music playlist title generation model. For
 
 ### Download Dataset
 
-**Melon Playlist Dataset** download the original data in ''./dataset/melon/data'' as shown below. 
+**Melon Playlist Dataset** : Download the original data in ''./dataset/melon/data'' as shown below. 
 
 * [dataset](./dataset)
     * [melon](./dataset/melon)
@@ -17,7 +17,7 @@ This repository provides the code for music playlist title generation model. For
             * [train.json](./dataset/melon/data/train.json)
             * [val.json](./dataset/melon/data/val.json)
 
-**Million Playlist Dataset**, download the original data in ''./dataset/million/data'' as shown below. 
+**Million Playlist Dataset** : Download the original data in ''./dataset/million/data'' as shown below. 
 
 * [dataset](./dataset)
     * [million](./dataset/million)
@@ -34,7 +34,7 @@ This repository provides the code for music playlist title generation model. For
 ---------------------------------------
 
 ### Noise Filtering and Chronological Split
-To filter out noisy data as suggested in the section 3 of the paper, run the following code.
+To filter out noisy data, as suggested in the section 3 of the paper, run the following code.
 
 ```sh
 $ python preprocessing.py
