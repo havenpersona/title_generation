@@ -68,13 +68,13 @@ $ python train.py
 
 ### Infer and Evaluate
 
-Run the following code to draw inferences. Each case is evaluated with the following metrics: BLEU( $n$ =1,2), ROUGE( $n$ =1,2), METEOR, BERT Score and SBERT Score. Diversity is evaluated with distinct- $n$ ( $n$ =1,2,3). The result is saved in ``./inference/{checkpoint_name}``. 
+Run the following code to draw inferences. Each case is evaluated with the following metrics: BLEU( $n$ =1,2 ), ROUGE( $n$ =1,2 ), METEOR, BERT Score and SBERT Score. Diversity is evaluated with distinct- $n$ ( $n$ =1,2,3 ). The result is saved in ``./inference/{checkpoint_name}``. 
 
 ```sh
 $ python infer.py
 ```
 
-Note : `test_file_name` is set to `test` by default, but set it to `highest_ft`, `lowest_ft`, `highest_fa`, `lowest_fa` to evaluate on the highest $f_t$ group, lowest $f_t$ group, highest $f_a$ group, and lowest $f_a$ group. (See the section 5 of the paper to get the definition of $f_t$ and $f_a$)
+Note : `test_file_name` is set to `test` by default, but set it to `highest_ft`, `lowest_ft`, `highest_fa`, `lowest_fa` to evaluate on the highest $F_t$ group, lowest $F_t$ group, highest $F_a$ group, and lowest $F_a$ group. (See the section 5 of the paper to get the definition of $F_t$ and $F_a$)
 
 
 Run the following code to get the Negative Log-Likelihood(NLL) on the test set. The result is saved in ``./inference``.
