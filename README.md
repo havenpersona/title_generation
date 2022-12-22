@@ -20,31 +20,31 @@ If you use the Million Playlist Dataset, download the original data in ''./datas
     * [million](./dataset/million)
         * [data](./dataset/million/data)
             * [mpd.slice.0-999.json](./dataset/million/data/mpd.slice.0-999.json)
-            .
-            .
-            .
+            * .
+            * .
+            * .
             * [mpd.slice.999000-999999.json](./dataset/million/data/mpd.slice.999000-999999.json)
 
 
 ### Noise Filtering and Chronological Split
 To filter out noisy data as suggested in the section 3 of the paper, run the following code.
 
-'''sh
+```sh
 $ python preprocessing.py
-'''
+```
 
 We provide the following parameters.
 
 - `--dataset`: to choose between the Melon Playlist Dataset and the Million Playlist Dataset. E.g. "melon", "million"
 
-- `--dataset_dir`: to set the directory where the data is stored. Default:"./dataset"; This means that the train, valid and test sets are stored at ''./dataset/{dataset_name}/sets'' and the tokenizers are stored at ''./dataset/{dataset_name}/tokenizer''. 
+- `--dataset_dir`: to set the directory where the data is stored. Default:"./dataset"; (This means that the train, valid and test sets are stored in ''./dataset/{dataset_name}/sets'' and the tokenizers are stored in ''./dataset/{dataset_name}/tokenizer''.)
 
-Note : 
+
 
 
 ### Acknowledgements
 
 This repository includes code from the following repositories with modifications:
-* [Music_Playlist_Title_Generation:_A_Machine_Learning_Approach](https://github.com/SeungHeonDoh/ply_title_gen)
+* [Music Playlist Title Generation: A Machine Learning Approach](https://github.com/SeungHeonDoh/ply_title_gen)
 
 * [Korean_BERT_Score](https://github.com/lovit/KoBERTScore)
