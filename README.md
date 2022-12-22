@@ -31,6 +31,7 @@ This repository provides the code for music playlist title generation model. For
 
 
 
+---------------------------------------
 
 ### Noise Filtering and Chronological Split
 To filter out noisy data as suggested in the section 3 of the paper, run the following code.
@@ -51,6 +52,8 @@ Run the following code to check statistics. (Figures are stored in ``./figure``.
 $ python statistics.py
 ```
 
+---------------------------------------
+
 ### Train
 
 To train the model on preprocessed training data, run the following code. (Models are stored in ``./checkpoint``.)
@@ -60,6 +63,8 @@ $ python train.py
 ```
 
 - `--input_type`: "artist" for artist ID embedding and "track" for track ID embedding.
+
+---------------------------------------
 
 ### Infer and Evaluate
 
@@ -78,7 +83,7 @@ Run the following code to get the Negative Log-Likelihood(NLL) on the test set. 
 $ python test.py
 ```
 
-
+---------------------------------------
 ### Acknowledgements
 
 This repository includes code from the following repositories with modifications:
