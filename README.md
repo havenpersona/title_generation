@@ -68,7 +68,7 @@ $ python train.py
 
 ### Infer and Evaluate
 
-Run the following code to draw inferences. Each case is evaluated with the following metrics: BLEU($n$=1,2), ROUGE($n$=1,2), METEOR, BERT Score and SBERT Score. Diversity is evaluated with distinct-$n$($n$=1,2,3). The result is saved in ``./inference/{checkpoint_name}``. 
+Run the following code to draw inferences. Each case is evaluated with the following metrics: BLEU( $n$ =1,2), ROUGE( $n$ =1,2), METEOR, BERT Score and SBERT Score. Diversity is evaluated with distinct- $n$ ( $n$ =1,2,3). The result is saved in ``./inference/{checkpoint_name}``. 
 
 ```sh
 $ python infer.py
