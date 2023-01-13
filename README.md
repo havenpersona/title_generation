@@ -9,13 +9,13 @@ This repository provides the code for music playlist title generation model. For
 
 **Melon Playlist Dataset** : Download the original data in ``./dataset/melon/data`` as shown below. 
 
-* [dataset](./dataset)
-    * [melon](./dataset/melon)
-        * [data](./dataset/melon/data)
-            * [song_meta.json](./dataset/melon/data/song_meta.json)
-            * [test.json](./dataset/melon/data/test.json)
-            * [train.json](./dataset/melon/data/train.json)
-            * [val.json](./dataset/melon/data/val.json)
+* [dataset]
+    * [melon]
+        * [data]
+            * [song_meta.json]
+            * [test.json]
+            * [train.json]
+            * [val.json]
 
 **Million Playlist Dataset** : Download the original data in ``./dataset/million/data`` as shown below. 
 
