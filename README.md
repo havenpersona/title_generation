@@ -35,7 +35,8 @@ This repository provides the code for music playlist title generation model. For
 
 ### Noise Filtering and Chronological Split
 
-If you downloaded preprocessed data, skip this part.
+(If you downloaded preprocessed data, skip this part.)
+
 To filter out noisy data, as suggested in the section 3 of the paper, run the following code.
 
 ```sh
