@@ -7,7 +7,7 @@ This repository provides the code for music playlist title generation model. For
 
 ### Download Dataset
 
-**Melon Playlist Dataset** : Download the original data in ``./dataset/melon/data`` as shown below. 
+**Melon Playlist Dataset** : Download song_meta.json, test.json, train.json, and val.json from the [official Melon Playlist Dataset webpage](https://mtg.github.io/melon-playlist-dataset/) and place them in ``./dataset/melon/data`` as shown below. 
 
 * dataset
     * melon
@@ -17,7 +17,7 @@ This repository provides the code for music playlist title generation model. For
             * train.json
             * val.json
 
-**Million Playlist Dataset** : Download the original data in ``./dataset/million/data`` as shown below. 
+**Million Playlist Dataset** : Download spotify_million_playlist_dataset.zip file from [this webpage](https://www.aicrowd.com/challenges/spotify-million-playlist-dataset-challenge/dataset_files) and unzip the file. Place mpd.slice.0-999.json, ..., mpd.slice.999000-999999.json in ``./dataset/million/data`` as shown below. 
 
 * dataset
     * million
