@@ -1,6 +1,6 @@
 # Music Playlist Title Generation Using Artist Information
 
-This repository provides the code for music playlist title generation model. For details, please refer to **Music Playlist Title Generation Using Artist Information**.
+This repository provides the code for music playlist title generation model. For details, please refer to our paper **Music Playlist Title Generation Using Artist Information**. (This paper was accepted to [AAAI-23 Workshop on Creative AI Acorss Modalities](https://creativeai-ws.github.io/))
 
 <img src="teaser.png">
 
