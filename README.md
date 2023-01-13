@@ -29,10 +29,13 @@ This repository provides the code for music playlist title generation model. For
             * mpd.slice.999000-999999.json
 
 
+###Preprocessed data is available [here](https://zenodo.org/record/7518545#.Y8D8EuxBzzc)
 
 ---------------------------------------
 
 ### Noise Filtering and Chronological Split
+
+If you downloaded preprocessed data, skip this part.
 To filter out noisy data, as suggested in the section 3 of the paper, run the following code.
 
 ```sh
