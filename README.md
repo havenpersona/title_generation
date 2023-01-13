@@ -90,3 +90,16 @@ This repository includes code from the following repositories with modifications
 * [Music Playlist Title Generation: A Machine Learning Approach](https://github.com/SeungHeonDoh/ply_title_gen)
 
 * [Korean_BERT_Score](https://github.com/lovit/KoBERTScore)
+
+---------------------------------------
+## Paper
+
+Please cite our paper if you use this code in your work:
+```
+@InProceedings{kim2023,
+  itle={Music Playlist Title Generation Using Artist Information},
+  author={Kim, Haven and Doh, Seungheon and Lee, Junwon and Nam, Juhan},
+  journal={AAAI-23 workshop on Creative AI Across Modalities},
+  year={2023}
+}
+```
